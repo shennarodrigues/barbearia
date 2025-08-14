@@ -6,48 +6,144 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="imagens/favicons/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <title>Barbearia Douglas do Corte</title>
 </head>
 
 <body>
+
     <header>
         <div class="logo"> <img src="imagens/Douglas do Corte - nova.png" alt="logo" width="100px"></div>
         <nav>
             <ul>
                 <li><a href="#home">Início</a></li>
-                <li><a href="#servicos">Serviços</a></li>
-                <li><a href="#agendamento">Agendamento</a></li>
+                <li><a href="#cortes">Cortes</a></li>
                 <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#agendamento" class="btn_header">AGENDE AGORA</a></li>
+                <li><a href="formulario.html">Avalie-nos</a></li>
+                <li><a href="https://wa.me/5581985257895" class="btn_header">AGENDE AGORA</a></li>
             </ul>
         </nav>
-
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
     </header>
-    <section class="hero" id="home">
-    <div class="hero-content">
-        <h1>Estilo que</h1>
-        <h1>Vai além do</h1>
-        <h1>Corte</h1>
-        <a href="#servicos" class="btn">Ver Serviços</a>
-    </div>
-</section>
 
-    <section class="main">
-        <div class="container">
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Estilo que</h1>
+            <h1>Vai além do</h1>
+            <h1>Corte</h1>
+            <a href="#servicos" class="btn">Ver Serviços</a>
         </div>
     </section>
 
-    <a href="https://wa.me/5581985257895" class="whatsapp-float" target="_blank" aria-label="Conversar no WhatsApp">
-    <i class="fab fa-whatsapp"></i>
-</a>
 
-<a href="https://www.instagram.com/barbeariadouglasdocorte_" class="instagram-float" target="_blank" aria-label="Visite nosso Instagram">
-    <i class="fab fa-instagram"></i>
-</a>
+    <section class="second" id="servicos">
+        <h1 class="titulo_second">Nossos Serviços</h1>
+        <div class="container-servicos">
+            <div class="servico-card">
+                <div class="icone-container">
+                    <img class="icones-card" src="imagens/penteado.png" alt="">
+                </div>
+                <h3 class="servico-nome">Corte Masculino</h3>
+                <p class="servico-descricao">Cortes modernos e clássicos, sempre alinhados com seu estilo pessoal.
+                    Técnicas profissionais para realçar sua personalidade.</p>
+                <div class="servico-preco">A partir de R$ 25</div>
+            </div>
+
+            <div class="servico-card">
+                <div class="icone-container">
+                    <img class="icones-card" src="imagens/barba.png" alt="">
+                </div>
+                <h3 class="servico-nome">Design de Barba</h3>
+                <p class="servico-descricao">Modelagem de barba com precisão, utilizando técnicas que valorizam seu
+                    rosto e estilo. Produtos de alta qualidade para um acabamento perfeito.</p>
+                <div class="servico-preco">A partir de 20</div>
+            </div>
+
+            <div class="servico-card">
+                <div class="icone-container">
+                    <img class="icones-card" src="imagens/sobrancelha.png" alt="">
+                </div>
+                <h3 class="servico-nome">Design de Sobrancelha</h3>
+                <p class="servico-descricao">Modelagem maculina de sobrancelha</p>
+                <div class="servico-preco">A partir de R$ 15</div>
+            </div>
+
+            <div class="servico-card">
+                <div class="icone-container">
+                    <img class="icones-card" src="imagens/bigode.png" alt="">
+                </div>
+                <h3 class="servico-nome">Ajuste Bigode</h3>
+                <p class="servico-descricao">Aparação e modelagem do bigode com precisão milimétrica. Para quem busca um
+                    visual elegante e bem cuidado.</p>
+                <div class="servico-preco">A partir de R$ 10</div>
+            </div>
+        </div>
+    </section> 
+    
+    <section class="galeria-cortes" id="cortes">
+    <h1 class="titulo-galeria">Nossos Trabalhos</h1>
+    <p class="subtitulo-galeria">Confira alguns dos nossos cortes mais recentes</p>
+
+    <div class="container-galeria">
+        <div class="foto-corte">
+            <img src="imagens/cortes (5).jpg" alt="Corte ">
+        </div>
+
+        <div class="foto-corte">
+            <img src="imagens/cortes (4).jpg" alt="Corte ">
+        </div>
+
+        <div class="foto-corte">
+            <img src="imagens/cortes (3).jpg" alt="Corte ">
+        </div>
+
+        <div class="foto-corte">
+            <img src="imagens/cortes (2).jpg" alt="Corte Pompadour">
+        </div>
+
+        <div class="foto-corte">
+            <img src="imagens/cortes (1).jpg" alt="Corte Clássico">
+        </div>
+
+
+    <div class="ver-mais-galeria">
+        <a href="https://www.instagram.com/barbeariadouglasdocorte_" class="btn-galeria" target="_blank">
+            <i class="fab fa-instagram"></i> Ver Mais no Instagram
+        </a>
+    </div>
+</section>
+     
+
+     <section class="sobre" id="sobre">
+    <div class="sobre-texto">
+        <h2>Sobre a Barbearia</h2>
+        <p>Nossa barbearia Douglas do corte é um espaço aconchegante de Jaboatão dos Guararapes, cheio de personalidade e dedicação. Aqui, o foco está no essencial: bons cortes, barbas bem feitas e um atendimento honesto com nossos colaboradores Rilton e Kaue. Prezamos pelo ambiente tranquilo, onde cada cliente se sente à vontade para conversar, rir, relaxar e sair de visual renovado. Ideal para quem busca praticidade, preço justo e aquele corte na régua que nunca sai de moda.</p>
+    </div>
+       <img src="imagens/WhatsApp Image 2025-05-24 at 15.02.41.jpeg" alt="Equipe da Barbearia">
+     </section>
+
+
+    <a href="https://www.instagram.com/barbeariadouglasdocorte_" class="instagram-float" target="_blank"
+        aria-label="Visite nosso Instagram">
+        <i class="fab fa-instagram"></i>
+    </a>
+
+
+    <!-- Rodapé -->
+
+
+    <footer class="rodape">
+        <div class="container-rodape">
+
+            <div class="info-contato">
+                <p><i class="fas fa-map-marker-alt"></i> Av. José de Souza Rodovalho 1150, Jaboatão dos Guararapes</p>
+                <p><i class="fas fa-phone"></i>(81) 98525-7895</p>
+            </div>
+
+            <div class="horarios">
+                <p><i class="fas fa-clock"></i> Seg á Sáb: 8:00 – 18:30 </p>
+            </div>
+        </div>
+    </footer>
 
 
 </body>
